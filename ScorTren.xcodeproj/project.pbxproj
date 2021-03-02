@@ -15,6 +15,16 @@
 		C363588A25DB9DD300C8300F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C363588825DB9DD300C8300F /* LaunchScreen.storyboard */; };
 		C363589525DB9DD300C8300F /* ScorTrenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363589425DB9DD300C8300F /* ScorTrenTests.swift */; };
 		C36358A025DB9DD300C8300F /* ScorTrenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363589F25DB9DD300C8300F /* ScorTrenUITests.swift */; };
+		C36358B125DBA1D500C8300F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36358B025DBA1D500C8300F /* Main.swift */; };
+		C36358B625DBA8AF00C8300F /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36358B525DBA8AF00C8300F /* Play.swift */; };
+		C36358BB25DBAC0B00C8300F /* SleepMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36358BA25DBAC0B00C8300F /* SleepMusic.swift */; };
+		C36358C025DBAE2500C8300F /* Swift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36358BF25DBAE2500C8300F /* Swift2.swift */; };
+		C36358C825DBB76E00C8300F /* PlayViewDital.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36358C725DBB76E00C8300F /* PlayViewDital.swift */; };
+		C36358CD25DBBAF500C8300F /* v1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C36358CC25DBBAF500C8300F /* v1.mp3 */; };
+		C36358D425DBBB1200C8300F /* v4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C36358D125DBBB1200C8300F /* v4.mp3 */; };
+		C36358D525DBBB1200C8300F /* v2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C36358D225DBBB1200C8300F /* v2.mp3 */; };
+		C36358D625DBBB1200C8300F /* v3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C36358D325DBBB1200C8300F /* v3.mp3 */; };
+		C36358E925DBDF2B00C8300F /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C36358E825DBDF2A00C8300F /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		C363589B25DB9DD300C8300F /* ScorTrenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScorTrenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C363589F25DB9DD300C8300F /* ScorTrenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorTrenUITests.swift; sourceTree = "<group>"; };
 		C36358A125DB9DD300C8300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36358B025DBA1D500C8300F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		C36358B525DBA8AF00C8300F /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		C36358BA25DBAC0B00C8300F /* SleepMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepMusic.swift; sourceTree = "<group>"; };
+		C36358BF25DBAE2500C8300F /* Swift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2.swift; sourceTree = "<group>"; };
+		C36358C725DBB76E00C8300F /* PlayViewDital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewDital.swift; sourceTree = "<group>"; };
+		C36358CC25DBBAF500C8300F /* v1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v1.mp3; sourceTree = "<group>"; };
+		C36358D125DBBB1200C8300F /* v4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v4.mp3; sourceTree = "<group>"; };
+		C36358D225DBBB1200C8300F /* v2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v2.mp3; sourceTree = "<group>"; };
+		C36358D325DBBB1200C8300F /* v3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v3.mp3; sourceTree = "<group>"; };
+		C36358E825DBDF2A00C8300F /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,11 @@
 		C363587125DB9DD100C8300F = {
 			isa = PBXGroup;
 			children = (
+				C36358CC25DBBAF500C8300F /* v1.mp3 */,
+				C36358D225DBBB1200C8300F /* v2.mp3 */,
+				C36358D325DBBB1200C8300F /* v3.mp3 */,
+				C36358E825DBDF2A00C8300F /* video.mp4 */,
+				C36358D125DBBB1200C8300F /* v4.mp3 */,
 				C363587C25DB9DD100C8300F /* ScorTren */,
 				C363589325DB9DD300C8300F /* ScorTrenTests */,
 				C363589E25DB9DD300C8300F /* ScorTrenUITests */,
@@ -101,7 +126,12 @@
 			children = (
 				C363587D25DB9DD100C8300F /* AppDelegate.swift */,
 				C363587F25DB9DD100C8300F /* SceneDelegate.swift */,
+				C36358BF25DBAE2500C8300F /* Swift2.swift */,
 				C363588125DB9DD100C8300F /* ContentView.swift */,
+				C36358B025DBA1D500C8300F /* Main.swift */,
+				C36358B525DBA8AF00C8300F /* Play.swift */,
+				C36358BA25DBAC0B00C8300F /* SleepMusic.swift */,
+				C36358C725DBB76E00C8300F /* PlayViewDital.swift */,
 				C363588325DB9DD300C8300F /* Assets.xcassets */,
 				C363588825DB9DD300C8300F /* LaunchScreen.storyboard */,
 				C363588B25DB9DD300C8300F /* Info.plist */,
@@ -239,9 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36358CD25DBBAF500C8300F /* v1.mp3 in Resources */,
 				C363588A25DB9DD300C8300F /* LaunchScreen.storyboard in Resources */,
+				C36358D525DBBB1200C8300F /* v2.mp3 in Resources */,
 				C363588725DB9DD300C8300F /* Preview Assets.xcassets in Resources */,
+				C36358E925DBDF2B00C8300F /* video.mp4 in Resources */,
+				C36358D625DBBB1200C8300F /* v3.mp3 in Resources */,
 				C363588425DB9DD300C8300F /* Assets.xcassets in Resources */,
+				C36358D425DBBB1200C8300F /* v4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +303,12 @@
 			files = (
 				C363587E25DB9DD100C8300F /* AppDelegate.swift in Sources */,
 				C363588025DB9DD100C8300F /* SceneDelegate.swift in Sources */,
+				C36358B125DBA1D500C8300F /* Main.swift in Sources */,
+				C36358BB25DBAC0B00C8300F /* SleepMusic.swift in Sources */,
+				C36358C025DBAE2500C8300F /* Swift2.swift in Sources */,
+				C36358C825DBB76E00C8300F /* PlayViewDital.swift in Sources */,
 				C363588225DB9DD100C8300F /* ContentView.swift in Sources */,
+				C36358B625DBA8AF00C8300F /* Play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
